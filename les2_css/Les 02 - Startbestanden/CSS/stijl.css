@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+#red {
+  background-color: #e6a2a2;
+  color: #600;
+}
+
+#blue {
+  background-color: #a2c4e6;
+  color: #004080;
+}
+
+#green {
+  background-color: #a2e6c4;
+  color: #00663d;
+}
+
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
