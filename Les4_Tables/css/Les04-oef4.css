@@ -1,0 +1,51 @@
+:root {
+  --tm-blue: #03283b;
+  --tm-orange: #ff6434;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+h1 {
+  color: var(--tm-orange);
+  font-weight: bold;
+}
+table.style {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  text-align: center;
+}
+table.style th {
+  border: 1px solid lightgray;
+}
+table.style td {
+  border: 1px solid lightgray;
+}
+td {
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+caption {
+  caption-side: bottom;
+  font-size: smaller;
+  padding: 5px;
+}
+#foto {
+  width: 150px;
+}
+.nadruk {
+  font-weight: bolder;
+}
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    background-color: var(--tm-orange);
+    color: white;
+  }
