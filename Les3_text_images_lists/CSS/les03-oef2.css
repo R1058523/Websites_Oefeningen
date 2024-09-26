@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+  color: #ff6434;
+}
+
+hr {
+  size: 1px;
+  border-color: #03283b;
+}
+
+.pictures {
+  border-radius: 5%;
+  margin: 15px;
+  float: left;
+  opacity: 0.5;
+}
+
+.pictures:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 20px #ff6434;
+}
+
+div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a.homelink {
+  color: #03283b;
+  text-decoration: none;
+}
+
+a.homelink:hover {
+  color: #ff6434;
+}
+
+a.homelink:visited {
+  text-decoration: underline;
+}
